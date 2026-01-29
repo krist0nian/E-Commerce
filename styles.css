@@ -259,6 +259,7 @@ a:hover {
 
 .highlight__wrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .highlight {
@@ -419,17 +420,19 @@ a:hover {
     .nav__links {
         display: none;
     }
+
+    .btn__menu {
+        display: block;
+        margin: 18px;
 }
 
-.btn__menu {
-    display: block;
+    .highlight {
+        width: 100%;
+        margin-bottom: 24px;
 }
 
-.highlight {
-    width: 100%;
-    margin-bottom: 24px;
+    .highlight:not(:last-child) {
+        margin-bottom: 24px;
 }
 
-.highlight:not(:last-child) {
-    margin-bottom: 24px;
 }
